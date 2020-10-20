@@ -10,9 +10,9 @@
 
 	<form action="Login.spring">
 
-		Enter name: <input type="text" name="username"><br>
-		 Enter password:<input type="password" name="password"> <br>
-		<input	type="submit" value="Login">
+		Enter name: <input type="text" name="username"><br> Enter
+		password:<input type="password" name="password"> <br> <input
+			type="submit" value="Login">
 
 	</form>
 
