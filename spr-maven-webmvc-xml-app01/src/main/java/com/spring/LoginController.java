@@ -17,11 +17,8 @@ public class LoginController implements Controller {
 		if (usr.equals(pwd)) {
 
 			return new ModelAndView("/welcome.jsp");
-
 		} else
-
 			return new ModelAndView("/failure.jsp");
-
 	}
 
 }

@@ -8,12 +8,9 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context-4.0.xsd">
 
-	<context:annotation-config />
-	<context:component-scan
-		base-package="base.package" />
-		
-
 	<bean id="loginController" class="com.spring.LoginController" />
+
+	
 
 	<bean id="loginMapper"
 		class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
@@ -22,6 +19,7 @@
 
 			<props>
 				<prop key="/login.spring">loginController</prop>
+				
 			</props>
 		</property>
 
