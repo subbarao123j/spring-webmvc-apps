@@ -10,8 +10,6 @@
 
 	<bean id="loginController" class="com.spring.LoginController" />
 
-	
-
 	<bean id="loginMapper"
 		class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
 
