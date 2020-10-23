@@ -26,13 +26,10 @@ public class LoginController {
 		boolean flag = loginModel.isValid(usr, pwd);
 
 		if (flag) {
-
 			return new ModelAndView("/welcome");
 
 		} else
-
 			return new ModelAndView("/failure");
-
 	}
 
 }
