@@ -19,6 +19,7 @@
 				<prop key="/login.spring">loginController</prop>
 				
 			</props>
+			
 		</property>
 
 	</bean>

@@ -2,11 +2,11 @@ package com.spring;
 
 public class LoginModel {
 
-	public boolean isValid(String user, String pass) {
+	public boolean isValid(String usr, String pwd) {
 		
-		System.out.println("From Login Model");
+		
 
-		if (user.equals(pass)) {
+		if (usr.equals(pwd)) {
 
 			return true;
 
